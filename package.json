@@ -1,0 +1,28 @@
+{
+  "name": "password-reset",
+  "version": "1.0.0",
+  "description": "Password reset flow with email verification and DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoordhuJeyakumar/password-reset.git"
+  },
+  "author": "Loordhu Jeyakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoordhuJeyakumar/password-reset/issues"
+  },
+  "homepage": "https://github.com/LoordhuJeyakumar/password-reset#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4"
+  }
+}
