@@ -4,10 +4,10 @@ This document outlines the password reset flow for users of this application.
 
 ## **URLs**
 
-## [Render Deployed URL 👈 ]()
+## [Render Deployed URL 👈 ](https://password-reset-api-2je2.onrender.com)
 
 ```
-
+https://password-reset-api-2je2.onrender.com
 ```
 
 ## [Github repository URL 👈](https://github.com/LoordhuJeyakumar/password-reset-be.git)
