@@ -13,7 +13,9 @@ const userSchema = new mongoose.Schema({
     validate: validateEmail,
   },
   passwordHash: { type: String, requierd: [true, "Password is requierd"] },
+  resetToken: { type: String, default: "" },
   varificationString: { type: String, default: "" },
+  varification: { type: Boolean, default: false },
   createdAT: { type: Date, default: Date.now() },
 });
 
